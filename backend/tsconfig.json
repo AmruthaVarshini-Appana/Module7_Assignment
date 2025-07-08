@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                     // Modern JavaScript output
+    "module": "NodeNext",                   // Required for ES Modules
+    "moduleResolution": "NodeNext",         // Matches Node.js behavior
+    "outDir": "dist",                       // Output directory after build
+    "rootDir": ".",                         // Your source files are in root
+    "esModuleInterop": true,                // Allows default imports from CommonJS
+    "resolveJsonModule": true,              // Enables importing .json files
+    "strict": true,                         // Enables all strict type-checking
+    "skipLibCheck": true                    // Speeds up compilation
+  },
+  "include": ["*.ts", "**/*.ts"],           // Include all .ts files
+  "exclude": ["node_modules", "dist"]       // Don't include build output or deps
+}
+

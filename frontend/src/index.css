@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional custom styles */
+body {
+  @apply bg-[#fdf7f2] text-gray-800 font-sans;
+}
+
+h1 {
+  @apply text-3xl font-bold text-center mt-8 mb-6;
+}
+
+h2 {
+  @apply text-xl font-semibold mb-4;
+}
+
+form {
+  @apply bg-white p-6 rounded-lg shadow-md;
+}
+
+input,
+textarea {
+  @apply w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-200;
+}
+
+button {
+  @apply bg-blue-600 text-white px-4 py-2 rounded mt-4 hover:bg-blue-700 transition;
+}
