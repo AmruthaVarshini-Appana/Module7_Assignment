@@ -47,15 +47,10 @@ cd backend
 npm install
 ````
 
-2. **Create a `.env` file**
 
-```env
-PORT=4000
-MONGO_URI=mongodb://localhost:27017/course-management
-JWT_SECRET=your_jwt_secret
-```
 
-3. **Build TypeScript and start server**
+
+2. **Build TypeScript and start server**
 
 ```bash
 npx tsc
